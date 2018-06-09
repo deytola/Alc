@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style> 
+			h2{
+				color:green;
+			}
+			#myimage{
+
+				height: 200px;
+				width:200px;
+			}
+		</style>
+		<title>My first web page</title>
+		<meta charset utf-8>
+		<lang = "en">
+	</head>
+	<body>
+		<h1 style="color:blue;"><center>welcome to my first web page.</center></h1>
+		<img src="Img\Neu.jpg" alt="gs" id="myimage">
+		<h4>About me</h4>
+		<p>This is a web page to test run code</p>
+		<ul>Skills 
+			<li>Microsoft Office</li>
+			<li>html</li>
+			<li>css</li>
+			<li>JavaScript</li>
+		</ul>
+		<script type="text/javascript">
+
+			function add(num1, num2){
+
+				var sum = num1+num2;
+				return sum;
+			}
+
+			console.log("Addition of 2 and 4: "  +add(2,4));
+			function multiply(num1, num2){
+
+				var multiplication = num1*num2;
+				console.log(multiplication);
+			} 	
+			console.log("Multiplication of 3 and 9: " +multiply(3,9));
+			function sub(num1, num2){
+
+				var diff = num1-num2;
+				console.log(diff);
+				
+			}
+			console.log("The subtraction of 5 from 10 is: " +sub(10,5));
+
+		</script>
+	</body>
+
+</html>
